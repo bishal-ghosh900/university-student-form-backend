@@ -1,0 +1,505 @@
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connect ECONNREFUSED 127.0.0.1:27017","reason":{"commonWireVersion":13,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"servers":{},"stale":false,"type":"Single"}}
+{"date":"Mon Nov 22 2021 13:51:21 GMT+0530 (India Standard Time)","error":{"name":"MongoError"},"exception":true,"level":"error","message":"uncaughtException: server instance pool was destroyed\nMongoError: server instance pool was destroyed\n    at basicWriteValidations (D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\core\\topologies\\server.js:577:41)\n    at Server.insert (D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\core\\topologies\\server.js:693:16)\n    at Server.insert (D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\topologies\\topology_base.js:301:25)\n    at insertDocuments (D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\operations\\common_functions.js:252:19)\n    at InsertOneOperation.execute (D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\operations\\insert_one.js:26:5)\n    at D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:72:19\n    at maybePromise (D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\utils.js:692:3)\n    at executeOperation (D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:34:10)\n    at Collection.insertOne (D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\collection.js:526:10)\n    at D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\lib\\winston-mongodb.js:226:44","os":{"loadavg":[0,0,0],"uptime":49596},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"],"cwd":"D:\\Practice\\Web Practice\\Node\\Practice3","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":36098896,"external":37754660,"heapTotal":24600576,"heapUsed":22558152,"rss":51257344},"pid":10908,"uid":null,"version":"v14.17.4"},"stack":"MongoError: server instance pool was destroyed\n    at basicWriteValidations (D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\core\\topologies\\server.js:577:41)\n    at Server.insert (D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\core\\topologies\\server.js:693:16)\n    at Server.insert (D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\topologies\\topology_base.js:301:25)\n    at insertDocuments (D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\operations\\common_functions.js:252:19)\n    at InsertOneOperation.execute (D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\operations\\insert_one.js:26:5)\n    at D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:72:19\n    at maybePromise (D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\utils.js:692:3)\n    at executeOperation (D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:34:10)\n    at Collection.insertOne (D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\collection.js:526:10)\n    at D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\lib\\winston-mongodb.js:226:44","trace":[{"column":41,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\core\\topologies\\server.js","function":"basicWriteValidations","line":577,"method":null,"native":false},{"column":16,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\core\\topologies\\server.js","function":"Server.insert","line":693,"method":"insert","native":false},{"column":25,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\topologies\\topology_base.js","function":"Server.insert","line":301,"method":"insert","native":false},{"column":19,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\operations\\common_functions.js","function":"insertDocuments","line":252,"method":null,"native":false},{"column":5,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\operations\\insert_one.js","function":"InsertOneOperation.execute","line":26,"method":"execute","native":false},{"column":19,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":null,"line":72,"method":null,"native":false},{"column":3,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\utils.js","function":"maybePromise","line":692,"method":null,"native":false},{"column":10,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\operations\\execute_operation.js","function":"executeOperation","line":34,"method":null,"native":false},{"column":10,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\node_modules\\mongodb\\lib\\collection.js","function":"Collection.insertOne","line":526,"method":"insertOne","native":false},{"column":44,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\node_modules\\winston-mongodb\\lib\\winston-mongodb.js","function":null,"line":226,"method":null,"native":false}]}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"date":"Mon Nov 22 2021 13:57:49 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Some error has happened\nError: Some error has happened\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\index.js:17:7)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","os":{"loadavg":[0,0,0],"uptime":49985},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"],"cwd":"D:\\Practice\\Web Practice\\Node\\Practice3","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":37244786,"external":38897263,"heapTotal":56057856,"heapUsed":29778120,"rss":67813376},"pid":5252,"uid":null,"version":"v14.17.4"},"stack":"Error: Some error has happened\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\index.js:17:7)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","trace":[{"column":7,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\index.js","function":null,"line":17,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"connected to port 3000"}
+{"date":"Mon Nov 22 2021 15:05:47 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"]},"exception":true,"level":"error","message":"uncaughtException: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\nError: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","os":{"loadavg":[0,0,0],"uptime":54062},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"],"cwd":"D:\\Practice\\Web Practice\\Node\\Practice3","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":36196291,"external":37848768,"heapTotal":53678080,"heapUsed":20260424,"rss":62705664},"pid":11948,"uid":null,"version":"v14.17.4"},"stack":"Error: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":889,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":745,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":16,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false}]}
+{"date":"Mon Nov 22 2021 15:06:10 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"]},"exception":true,"level":"error","message":"uncaughtException: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\nError: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","os":{"loadavg":[0,0,0],"uptime":54085},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"],"cwd":"D:\\Practice\\Web Practice\\Node\\Practice3","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":36308283,"external":37960760,"heapTotal":53415936,"heapUsed":21505752,"rss":62480384},"pid":4296,"uid":null,"version":"v14.17.4"},"stack":"Error: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":889,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":745,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":16,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false}]}
+{"date":"Mon Nov 22 2021 15:06:32 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"]},"exception":true,"level":"error","message":"uncaughtException: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\nError: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","os":{"loadavg":[0,0,0],"uptime":54108},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"],"cwd":"D:\\Practice\\Web Practice\\Node\\Practice3","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":36308283,"external":37960760,"heapTotal":53415936,"heapUsed":21519072,"rss":62414848},"pid":8512,"uid":null,"version":"v14.17.4"},"stack":"Error: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":889,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":745,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":16,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false}]}
+{"date":"Mon Nov 22 2021 15:06:42 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"]},"exception":true,"level":"error","message":"uncaughtException: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\nError: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","os":{"loadavg":[0,0,0],"uptime":54117},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"],"cwd":"D:\\Practice\\Web Practice\\Node\\Practice3","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":36196291,"external":37848768,"heapTotal":53678080,"heapUsed":20271576,"rss":62140416},"pid":11056,"uid":null,"version":"v14.17.4"},"stack":"Error: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":889,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":745,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":16,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false}]}
+{"date":"Mon Nov 22 2021 15:07:09 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"]},"exception":true,"level":"error","message":"uncaughtException: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\nError: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","os":{"loadavg":[0,0,0],"uptime":54145},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"],"cwd":"D:\\Practice\\Web Practice\\Node\\Practice3","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":36308283,"external":37960760,"heapTotal":53415936,"heapUsed":21586424,"rss":62337024},"pid":3800,"uid":null,"version":"v14.17.4"},"stack":"Error: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":889,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":745,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":16,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false}]}
+{"date":"Mon Nov 22 2021 15:07:16 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"]},"exception":true,"level":"error","message":"uncaughtException: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\nError: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","os":{"loadavg":[0,0,0],"uptime":54151},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"],"cwd":"D:\\Practice\\Web Practice\\Node\\Practice3","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":36308283,"external":37960760,"heapTotal":53415936,"heapUsed":21528544,"rss":62210048},"pid":11948,"uid":null,"version":"v14.17.4"},"stack":"Error: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":889,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":745,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":16,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false}]}
+{"date":"Mon Nov 22 2021 15:07:21 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"]},"exception":true,"level":"error","message":"uncaughtException: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\nError: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","os":{"loadavg":[0,0,0],"uptime":54156},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"],"cwd":"D:\\Practice\\Web Practice\\Node\\Practice3","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":36308283,"external":37960760,"heapTotal":53415936,"heapUsed":21598152,"rss":62283776},"pid":9456,"uid":null,"version":"v14.17.4"},"stack":"Error: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":889,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":745,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":16,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false}]}
+{"date":"Mon Nov 22 2021 15:08:48 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"]},"exception":true,"level":"error","message":"uncaughtException: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\nError: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","os":{"loadavg":[0,0,0],"uptime":54243},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"],"cwd":"D:\\Practice\\Web Practice\\Node\\Practice3","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":36212639,"external":37865116,"heapTotal":53678080,"heapUsed":20296240,"rss":62226432},"pid":11356,"uid":null,"version":"v14.17.4"},"stack":"Error: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":889,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":745,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":16,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false}]}
+{"date":"Mon Nov 22 2021 15:10:02 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"]},"exception":true,"level":"error","message":"uncaughtException: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\nError: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","os":{"loadavg":[0,0,0],"uptime":54317},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"],"cwd":"D:\\Practice\\Web Practice\\Node\\Practice3","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":36308283,"external":37960760,"heapTotal":53415936,"heapUsed":21575880,"rss":62398464},"pid":10588,"uid":null,"version":"v14.17.4"},"stack":"Error: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":889,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":745,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":16,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false}]}
+{"date":"Mon Nov 22 2021 15:10:06 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"]},"exception":true,"level":"error","message":"uncaughtException: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\nError: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","os":{"loadavg":[0,0,0],"uptime":54321},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"],"cwd":"D:\\Practice\\Web Practice\\Node\\Practice3","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":36196291,"external":37848768,"heapTotal":53678080,"heapUsed":20264200,"rss":62238720},"pid":11112,"uid":null,"version":"v14.17.4"},"stack":"Error: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":889,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":745,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":16,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false}]}
+{"date":"Mon Nov 22 2021 15:10:43 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"]},"exception":true,"level":"error","message":"uncaughtException: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\nError: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","os":{"loadavg":[0,0,0],"uptime":54359},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"],"cwd":"D:\\Practice\\Web Practice\\Node\\Practice3","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":36187686,"external":37840163,"heapTotal":53415936,"heapUsed":20120616,"rss":62324736},"pid":11332,"uid":null,"version":"v14.17.4"},"stack":"Error: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":889,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":745,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":16,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false}]}
+{"date":"Mon Nov 22 2021 15:11:41 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"]},"exception":true,"level":"error","message":"uncaughtException: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\nError: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","os":{"loadavg":[0,0,0],"uptime":54417},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"],"cwd":"D:\\Practice\\Web Practice\\Node\\Practice3","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":36308283,"external":37960760,"heapTotal":53415936,"heapUsed":21527840,"rss":62218240},"pid":9308,"uid":null,"version":"v14.17.4"},"stack":"Error: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":889,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":745,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":16,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false}]}
+{"date":"Mon Nov 22 2021 15:12:13 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"]},"exception":true,"level":"error","message":"uncaughtException: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\nError: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","os":{"loadavg":[0,0,0],"uptime":54449},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Practice\\Web Practice\\Node\\Practice3\\index.js"],"cwd":"D:\\Practice\\Web Practice\\Node\\Practice3","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":36212639,"external":37865116,"heapTotal":53415936,"heapUsed":20350472,"rss":62394368},"pid":6292,"uid":null,"version":"v14.17.4"},"stack":"Error: Cannot find module './startup/logging'\nRequire stack:\n- D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js\n- D:\\Practice\\Web Practice\\Node\\Practice3\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js:3:16)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)","trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":889,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":745,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":16,"file":"D:\\Practice\\Web Practice\\Node\\Practice3\\startup\\db.js","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false}]}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info"}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info"}
+{"level":"info"}
+{"level":"info"}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb disconnected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
+{"level":"info","message":"connected to port 3000"}
+{"level":"info","message":"Mongodb connected..."}
