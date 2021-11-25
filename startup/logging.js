@@ -8,10 +8,6 @@ process.on("unhandledRejection", (err) => {
 
 const logger = winston.createLogger({
   transports: [
-    new winston.transports.MongoDB({
-      db: config.get("db"),
-      handleExceptions: true,
-    }),
     new winston.transports.File({
       filename: "logger.log",
       handleExceptions: true,

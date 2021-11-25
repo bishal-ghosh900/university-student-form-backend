@@ -4,7 +4,10 @@ const logger = require("../startup/logging");
 
 module.exports = function () {
   mongoose
-    .connect(config.get("db"), { useUnifiedTopology: true })
+    .connect(config.get("db"), {
+      useUnifiedTopology: true,
+      useUnifiedTopology: true,
+    })
     .then(() => logger.info("Mongodb connected..."))
-    .catch(() => logger.info("Mongodb disconnected..."));
+    .catch((ex) => logger.info("Mongodb disconnected...", ex));
 };
